@@ -1,5 +1,10 @@
-function soma(a,b){
-    return a+b
+function soma(a, b) {
+  return a + b;
 }
 
-export {soma}
+export function ehPar(n) {
+  const resto = n % 2;
+  return resto === 0;
+}
+
+export { soma };
